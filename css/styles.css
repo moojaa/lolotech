@@ -2845,19 +2845,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #237dc9;
-  --bs-btn-border-color: #237dc9;
+  --bs-btn-bg: #ffc900;
+  --bs-btn-border-color: #ffc900;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #154164;
-  --bs-btn-hover-border-color: #154164;
+  --bs-btn-hover-bg: #977b15;
+  --bs-btn-hover-border-color: #977b15;
   --bs-btn-focus-shadow-rgb: 255, 208, 38;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #237dc9;
-  --bs-btn-active-border-color: #237dc9;
+  --bs-btn-active-bg: #ffc900;
+  --bs-btn-active-border-color: #ffc900;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #237dc9;
-  --bs-btn-disabled-border-color: #237dc9;
+  --bs-btn-disabled-bg: #ffc900;
+  --bs-btn-disabled-border-color: #ffc900;
 }
 
 .btn-secondary {
@@ -8160,7 +8160,14 @@ textarea.form-control-lg {
 }
 
 .bg-section-1{
-  background-image: url("../img/Frame\ 2.png");
+    background-image: url("../img/Frame\ 2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-section-2{
+  background-image: url("../img/bg-3.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -8172,6 +8179,10 @@ textarea.form-control-lg {
   }
 }
 
+.bg-section-2{
+  background-image: url("../img/bg-3.jpeg");
+
+}
 
 .bg-dark {
   --bs-bg-opacity: 1;
@@ -10851,7 +10862,7 @@ p {
 }
 
 .page-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -10908,7 +10919,7 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 32px;
+  height: 2rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10917,7 +10928,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #4f81bd;
+  color: #ffc900;
 }
 
 @media (min-width: 992px) {
