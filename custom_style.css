@@ -40,6 +40,10 @@ li{
 
 }
 
+.hi3{
+  display: none;
+}
+
 .bg1-p{
     padding-top: 500px;
 }
@@ -115,16 +119,6 @@ section#contact {
     .midea-2{
         height: 500px;
     }
-
-    .hi{
-        display: none;
-    }
-
-    
-    .hi2{
-        padding-top: 100px;
-    }
-
     .bg1{
         background-image: url("img/bg03.png") ;
         background-repeat: no-repeat;
@@ -140,4 +134,21 @@ section#contact {
         background-position: center center;
         background-size: 610px;
     }
+}
+
+@media (max-width: 1300px){
+  .hi{
+    display: none;
+}
+
+
+.hi2{
+    padding-top: 100px;
+}
+
+.hi3{
+  display: block;
+}
+
+
 }
